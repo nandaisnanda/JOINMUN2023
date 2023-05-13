@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 
 const josefinSans = localFont({
@@ -10,9 +11,14 @@ const safiraMarch = localFont({
 	variable: "--font-safira-march",
 });
 
+const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: false });
+
 export default function App({ Component, pageProps }) {
 	return (
-		<main className={`${josefinSans.variable} ${safiraMarch.variable}`}>
+		<main
+			className={`${josefinSans.variable} ${safiraMarch.variable} font-body min-h-screen bg-red text-yellow`}
+		>
+			<Navbar />
 			<Component {...pageProps} />
 		</main>
 	);

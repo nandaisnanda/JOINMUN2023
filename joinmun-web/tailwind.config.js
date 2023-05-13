@@ -17,6 +17,15 @@ module.exports = {
 					...defaultTheme.fontFamily.serif,
 				],
 			},
+			colors: {
+				red: "#ac2229",
+				brown: "#bb6f3f",
+				green: "#469159",
+				yellow: "#ede1c8",
+				"sub-red": "#8b1c22",
+				"sub-brown": "#8f5632",
+				"sub-yellow": "#dfc879",
+			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":

@@ -6,7 +6,7 @@ export default function Home() {
 			<Head>
 				<title>JOINMUN 2023</title>
 			</Head>
-			<div className="font-headline">Hellow</div>
+			<div className=""></div>
 		</>
 	);
 }
