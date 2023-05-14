@@ -9,7 +9,7 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > prevScrollPos) {
+			if (window.scrollY > prevScrollPos && window.scrollY >= 50) {
 				navRef.current.classList.add("-translate-y-[100px]");
 			} else {
 				navRef.current.classList.remove("-translate-y-[100px]");
@@ -27,14 +27,14 @@ const Navbar = () => {
 	return (
 		<nav
 			ref={navRef}
-			className="fixed flex justify-between transition-all duration-300 items-center top-0 z-50 py-2 px-10 bg-yellow w-full"
+			className="sticky top-0 z-50 flex w-full items-center justify-between bg-yellow px-10 py-2 transition-all delay-300 duration-300"
 		>
-			<Image className="w-24 h-auto" src={logoJoinmun} alt="logo" />
+			<Image className="h-auto w-24" src={logoJoinmun} alt="logo" />
 			<div className="flex space-x-4">
 				{["home", "articles", "chairs", "registration", "faq"].map(
 					(el, idx) => (
 						<Link
-							className="text-black bg-sub-yellow font-headline px-3 py-2 font-[500] text-[0.625rem] uppercase rounded-full"
+							className="rounded-full bg-sub-yellow px-3 py-1 font-headline font-[500] uppercase text-black"
 							href={el !== "home" ? `/${el}` : "/"}
 							key={idx}
 						>

@@ -10,13 +10,17 @@ const safiraMarch = localFont({
 	src: "./../public/fonts/safira-march/Safira March.otf",
 	variable: "--font-safira-march",
 });
+const philosopher = localFont({
+	src: "./../public/fonts/philosopher/Philosopher-Regular.ttf",
+	variable: "--font-philosopher",
+});
 
 const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: false });
 
 export default function App({ Component, pageProps }) {
 	return (
 		<main
-			className={`${josefinSans.variable} ${safiraMarch.variable} font-body min-h-screen bg-red text-yellow`}
+			className={`${josefinSans.variable} ${safiraMarch.variable} ${philosopher.variable} min-h-[150vh] bg-red font-body text-yellow`}
 		>
 			<Navbar />
 			<Component {...pageProps} />

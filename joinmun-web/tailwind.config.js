@@ -12,10 +12,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				body: ["var(--font-josefin-sans)", ...defaultTheme.fontFamily.sans],
-				headline: [
-					"var(--font-safira-march)",
-					...defaultTheme.fontFamily.serif,
-				],
+				headline: ["var(--font-philosopher)", ...defaultTheme.fontFamily.serif],
 			},
 			colors: {
 				red: "#ac2229",
