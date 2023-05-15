@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import "@/styles/globals.css";
 import dynamic from "next/dynamic";
 import localFont from "next/font/local";
@@ -20,10 +21,13 @@ const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: false });
 export default function App({ Component, pageProps }) {
 	return (
 		<main
-			className={`${josefinSans.variable} ${safiraMarch.variable} ${philosopher.variable} min-h-[150vh] bg-red font-body text-yellow`}
+			className={`${josefinSans.variable} ${safiraMarch.variable} ${philosopher.variable} bg-red font-body text-yellow`}
 		>
-			<Navbar />
-			<Component {...pageProps} />
+			<div className="mb-20 min-h-[150vh]">
+				<Navbar />
+				<Component {...pageProps} />
+			</div>
+			<Footer />
 		</main>
 	);
 }
