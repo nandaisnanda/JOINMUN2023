@@ -10,7 +10,7 @@ const FAQ = () => {
 				{Array(5)
 					.fill("")
 					.map((_, idx) => (
-						<AccordionEl />
+						<AccordionEl key={idx} />
 					))}
 			</div>
 		</section>
