@@ -1,6 +1,8 @@
 import Image from "next/image";
 import logoJoinmun from "@/public/index/logo-joinmun.svg";
+import jogjaSilhouette from "@/public/jogja-silhouette.svg";
 import Link from "next/link";
+import { HiHome } from "react-icons/hi";
 import { useEffect, useRef, useState } from "react";
 
 const Navbar = () => {
@@ -27,22 +29,33 @@ const Navbar = () => {
 	return (
 		<nav
 			ref={navRef}
-			className="sticky top-0 z-50 flex w-full items-center justify-between bg-yellow px-10 py-2 transition-all delay-300 duration-300"
+			className="sticky top-0 z-50 flex w-full items-center justify-between bg-yellow px-10 py-2 transition-all delay-75 duration-300"
 		>
 			<Image className="h-auto w-24" src={logoJoinmun} alt="logo" />
 			<div className="flex space-x-4">
-				{["home", "articles", "chairs", "registration", "faq"].map(
-					(el, idx) => (
-						<Link
-							className="rounded-full bg-sub-yellow px-3 py-1 font-headline font-[500] uppercase text-black"
-							href={el !== "home" ? `/${el}` : "/"}
-							key={idx}
-						>
-							{el}
-						</Link>
-					)
-				)}
+				<Link
+					href="/"
+					className="cursor-pointer rounded-full bg-red p-1 transition hover:scale-110"
+				>
+					<HiHome className="h-6 w-6" />
+				</Link>
+				{["articles", "chairs", "registration", "faq"].map((el, idx) => (
+					<Link
+						className={`rounded-full ${
+							el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
+						} px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
+						href={el !== "home" ? `/${el}` : "/"}
+						key={idx}
+					>
+						{el}
+					</Link>
+				))}
 			</div>
+			<Image
+				className="absolute right-0 -z-10 h-full w-auto"
+				src={jogjaSilhouette}
+				alt="logo"
+			/>
 		</nav>
 	);
 };
