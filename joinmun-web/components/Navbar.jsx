@@ -29,6 +29,7 @@ const Navbar = () => {
 	return (
 		<nav
 			ref={navRef}
+			id="nav"
 			className="sticky top-0 z-50 flex w-full items-center justify-between bg-yellow px-10 py-2 transition-all delay-75 duration-300"
 		>
 			<Image className="h-auto w-24" src={logoJoinmun} alt="logo" />
