@@ -14,8 +14,8 @@ export default function Home() {
 				<div className="flex justify-center mt-0">
 			<img  
 			src="/index/jogja silhouette .png"
-			width={600}
-			height={600}
+			width={800}
+			height={800}
 			/>
 			</div>
 			</div>
