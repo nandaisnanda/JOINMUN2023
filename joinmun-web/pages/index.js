@@ -9,7 +9,7 @@ export default function Home() {
 				<title>JOINMUN 2023</title>
 			</Head>
 			<Hero />
-			<div className="bg-cover bg-center bg-opacity-10" style={{ backgroundImage: 'url("/index/megamendung (1).png")' }}>
+			<div className="bg-cover bg-center bg-opacity-10" style={{ backgroundImage: 'url("/index/Untitled_Artwork-1 10.svg")' }}>
 			<h1 className=" mt-10 text-center font-headline text-6xl">Council and Topic</h1>
 			<h1 className="text-center font-headline text-6xl -mb-32">Reveal</h1>
 			<button className=" absolute bg-yellow hover:bg-sub-yellow text-red font-headline py-2 px-4 rounded-full right-[340px] my-[345px]">
@@ -28,10 +28,10 @@ export default function Home() {
 			/> 
 			</div> 
 			</div>
-			<div className=" bg-cover bg-center bg-opacity-10 " style={{ backgroundImage: 'url("/index/megamendung (1).png")' }}>
+			<div className=" bg-cover bg-center bg-opacity-10 " style={{ backgroundImage: 'url("/index/Untitled_Artwork-1 11 (1).svg")' }}>
 				<h1 className="font-headline mt-20 text-6xl text-center">Exhibition (coming soon)</h1>
 			</div >
-			<div className="bg-cover bg-center bg-opacity-10 " style={{ backgroundImage: 'url("/index/megamendung (1).png")' }}>
+			<div className="bg-cover bg-center bg-opacity-10 " style={{ backgroundImage: 'url("/index/Untitled_Artwork-1 11 (1).svg")' }}>
 				<h1 className="font-headline mt-20 text-6xl text-center">Gallery</h1>
 			</div>
 		</>
