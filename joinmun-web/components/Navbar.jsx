@@ -45,7 +45,13 @@ const Navbar = () => {
 						className={`rounded-full ${
 							el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
 						} px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
-						href={el !== "home" ? `/${el}` : "/"}
+						href={
+							el !== "home"
+								? el === "registration"
+									? "https://docs.google.com/forms/d/e/1FAIpQLScFF0zJUSuIiErUlxVlP10Zxlcn4tLuEFEqoDHFNScV4OQs_Q/viewform"
+									: `/${el}`
+								: "/"
+						}
 						key={idx}
 					>
 						{el}
