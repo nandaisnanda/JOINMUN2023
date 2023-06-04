@@ -8,11 +8,11 @@ const AccordionEl = () => {
 			<h2
 				onClick={() => setIsOpen((io) => !io)}
 				id="accordionTrigger"
-				className="relative cursor-pointer bg-yellow p-4 pr-10 text-lg font-[600] text-gray-950 transition hover:scale-[1.02] sm:pr-14 sm:text-xl lg:text-2xl"
+				className="relative cursor-pointer bg-yellow p-3 pr-12 text-lg font-[600] text-gray-950 transition hover:scale-[1.02] sm:pr-14 sm:text-xl lg:p-4 lg:text-2xl"
 			>
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 				<svg
-					className={`absolute right-4 top-1/2 h-8 w-8 ${
+					className={`absolute right-3 top-1/2 h-8 w-8 lg:right-4 ${
 						isOpen && "rotate-180"
 					} -translate-y-1/2 transition duration-300`}
 					xmlns="http://www.w3.org/2000/svg"
