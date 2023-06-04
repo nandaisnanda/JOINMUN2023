@@ -8,7 +8,7 @@ import "swiper/css";
 
 const Hero = () => {
 	return (
-		<section className="relative mt-20 font-headline lg:mt-0">
+		<section className="relative font-headline">
 			<Image
 				className="absolute inset-0 m-auto h-auto w-4/5 md:w-3/5"
 				src={kipas}

@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
 		<main
 			className={`${josefinSans.variable} ${safiraMarch.variable} ${philosopher.variable} bg-red font-body text-yellow`}
 		>
-			<div className="mb-28 min-h-screen">
+			<div className="mb-28 min-h-screen pt-20 lg:pt-0">
 				<Navbar />
 				<Component {...pageProps} />
 			</div>
