@@ -8,7 +8,7 @@ const AccordionEl = () => {
 			<h2
 				onClick={() => setIsOpen((io) => !io)}
 				id="accordionTrigger"
-				className="relative cursor-pointer bg-yellow p-4 text-2xl font-[600] text-gray-950 transition hover:scale-[1.02]"
+				className="relative cursor-pointer bg-yellow p-4 pr-10 text-lg font-[600] text-gray-950 transition hover:scale-[1.02] sm:pr-14 sm:text-xl lg:text-2xl"
 			>
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 				<svg
@@ -34,7 +34,7 @@ const AccordionEl = () => {
 				} transition-all duration-300`}
 			>
 				<div className="overflow-hidden bg-sub-yellow text-gray-950">
-					<p className="px-4 py-6">
+					<p className="px-4 py-6 text-sm md:text-base">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
 						animi officiis necessitatibus fugiat porro rem iure, vitae in dolor
 						voluptatibus. Quibusdam alias, explicabo soluta architecto veritatis
