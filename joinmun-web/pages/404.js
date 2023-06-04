@@ -1,10 +1,14 @@
 const NotFound = () => {
 	return (
 		<div className="absolute top-0 flex h-screen w-full items-center justify-center">
-			<div className="text-center">
-				<h2 className="font-headline text-5xl text-yellow">Page Not Found</h2>
-				<hr className="my-10" />
-				<p>The page you are looking for does not exist (Error: 404)</p>
+			<div className="mx-4 text-center">
+				<h2 className="font-headline text-4xl text-yellow md:text-5xl">
+					Page Not Found
+				</h2>
+				<hr className="mb-6 mt-3 md:mb-8 lg:mt-5" />
+				<p className="text-sm md:text-lg">
+					The page you are looking for does not exist (Error: 404)
+				</p>
 			</div>
 		</div>
 	);
