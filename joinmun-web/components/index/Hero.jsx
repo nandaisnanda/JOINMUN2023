@@ -5,6 +5,7 @@ import Image from "next/image";
 import { BsChevronLeft } from "react-icons/bs";
 
 import "swiper/css";
+import Link from "next/link";
 
 const Hero = () => {
 	return (
@@ -41,9 +42,11 @@ const Hero = () => {
 						<p className="mb-6 text-lg sm:mb-12 sm:text-xl md:text-2xl lg:text-3xl">
 							{headline.description}
 						</p>
-						<button className="w-fit rounded-full bg-yellow px-4 py-1 font-body text-red md:text-lg">
-							more information
-						</button>
+						<Link href="/reveal">
+							<button className="w-fit rounded-full bg-yellow px-4 py-1 font-body text-red md:text-lg">
+								more information
+							</button>
+						</Link>
 					</SwiperSlide>
 				))}
 				<BsChevronLeft className="swiper-button-prev absolute inset-y-0 z-10 my-auto h-auto w-8 cursor-pointer fill-yellow sm:w-10" />

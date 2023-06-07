@@ -13,7 +13,7 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > prevScrollPos && window.scrollY >= 50) {
+			if (window.scrollY > prevScrollPos && window.scrollY >= 200) {
 				navRef.current.classList.add("-translate-y-[400px]");
 			} else {
 				navRef.current.classList.remove("-translate-y-[400px]");
@@ -31,7 +31,7 @@ const Navbar = () => {
 	return (
 		<nav
 			ref={navRef}
-			className="fixed top-0 z-50 w-full transition-all delay-75 duration-[750ms] lg:sticky"
+			className="fixed top-0 z-50 w-full transition-all duration-500 lg:sticky"
 		>
 			<div className="relative flex w-full items-center justify-between bg-yellow px-4 py-2 sm:px-6 lg:px-10">
 				<Image className="h-auto w-20 md:w-24" src={logoJoinmun} alt="logo" />
@@ -49,13 +49,7 @@ const Navbar = () => {
 							className={`rounded-full ${
 								el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
 							} z-10 px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
-							href={
-								el !== "home"
-									? el === "registration"
-										? "https://docs.google.com/forms/d/e/1FAIpQLScFF0zJUSuIiErUlxVlP10Zxlcn4tLuEFEqoDHFNScV4OQs_Q/viewform"
-										: `/${el}`
-									: "/"
-							}
+							href={el !== "home" ? `/${el}` : "/"}
 							key={idx}
 						>
 							{el}
