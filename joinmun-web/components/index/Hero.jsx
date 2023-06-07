@@ -31,8 +31,11 @@ const Hero = () => {
 				}}
 				modules={[Navigation, Pagination]}
 			>
-				{headlineList.map((headline) => (
-					<SwiperSlide className="!flex min-h-[80vh] flex-col justify-center px-12 sm:px-20 md:px-28">
+				{headlineList.map((headline, idx) => (
+					<SwiperSlide
+						key={idx}
+						className="!flex min-h-[80vh] flex-col justify-center px-12 sm:px-20 md:px-28"
+					>
 						<p className="mb-4 text-xl uppercase sm:mb-8 sm:text-2xl md:text-3xl lg:text-4xl">
 							{headline.tag}
 						</p>
