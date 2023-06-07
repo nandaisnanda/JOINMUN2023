@@ -26,7 +26,7 @@ const Hero = () => {
 					clickable: true,
 					bulletActiveClass: "bg-yellow",
 					renderBullet: (index, className) => {
-						return `<div class="${className} !h-4 !w-4 rounded-full border-2 !border-yellow bg-red"></div>`;
+						return `<div class="${className} h-3 w-3 sm:h-4 sm:w-4 rounded-full border-2 !border-yellow bg-red"></div>`;
 					},
 				}}
 				modules={[Navigation, Pagination]}
