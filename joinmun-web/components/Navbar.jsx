@@ -34,7 +34,9 @@ const Navbar = () => {
 			className="fixed top-0 z-50 w-full transition-all duration-500 lg:sticky"
 		>
 			<div className="relative flex w-full items-center justify-between bg-yellow px-4 py-2 sm:px-6 lg:px-10">
-				<Image className="h-auto w-20 md:w-24" src={logoJoinmun} alt="logo" />
+				<Link href="/">
+					<Image className="h-auto w-20 md:w-24" src={logoJoinmun} alt="logo" />
+				</Link>
 
 				{/* Desktop */}
 				<div className="hidden space-x-4 lg:flex">
