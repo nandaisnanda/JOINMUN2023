@@ -4,6 +4,8 @@ import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 import Head from "next/head";
 
+import "@/styles/scrollbar-card.css";
+
 const josefinSans = localFont({
   src: "./../public/fonts/josefin-sans/JosefinSans-VariableFont_wght.ttf",
   variable: "--font-josefin-sans",

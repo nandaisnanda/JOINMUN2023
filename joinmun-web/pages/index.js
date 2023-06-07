@@ -1,5 +1,6 @@
 import Hero from "@/components/index/Hero";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,12 +15,16 @@ export default function Home() {
         </h1>
         <h1 className="-mb-32 text-center font-headline text-6xl">Reveal</h1>
         <button className=" absolute right-[340px] my-[345px] rounded-full bg-yellow px-4 py-2 font-headline text-red hover:bg-sub-yellow">
+          <Link href="/chairs#sdac">
           <h1>Single Delegate</h1>
           <h1>Advanced Council</h1>
+          </Link>
         </button>
         <button className="absolute left-[340px] my-[345px] rounded-full bg-yellow px-4 py-2 font-headline text-red hover:bg-sub-yellow">
+          <Link href="/chairs#ddac">
           <h1>Double Delegates</h1>
           <h1>Advanced Council</h1>
+          </Link>
         </button>
         <div className="flex justify-center">
           <Image
