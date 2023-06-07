@@ -42,24 +42,10 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-			<div
-				className=" bg-opacity-10 bg-cover bg-center"
-				style={{
-					backgroundImage: 'url("/index/Untitled_Artwork-1 11 (1).svg")',
-				}}
-			>
-				<h1 className="mt-20 text-center font-headline text-6xl">
-					Exhibition (coming soon)
-				</h1>
-			</div>
-			<div
-				className="bg-opacity-10 bg-cover bg-center "
-				style={{
-					backgroundImage: 'url("/index/Untitled_Artwork-1 11 (1).svg")',
-				}}
-			>
-				<h1 className="mt-20 text-center font-headline text-6xl">Gallery</h1>
-			</div>
+			<h1 className="mt-20 text-center font-headline text-6xl">
+				Exhibition (coming soon)
+			</h1>
+			<h1 className="mt-20 text-center font-headline text-6xl">Gallery</h1>
 		</>
 	);
 }
