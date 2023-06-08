@@ -34,7 +34,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="text-left sm:text-right">
-					<h3 className="mb-4 text-3xl sm:text-2xl lg:text-3xl">Location</h3>
+					<h3 className="mb-4 text-3xl sm:text-2xl lg:text-3xl">Address</h3>
 					<p className="text-base sm:text-sm lg:text-base">
 						Bulaksumur, Caturtunggal, <br /> Kec. Depok, Kabupaten Sleman,{" "}
 						<br /> Daerah Istimewa Yogyakarta <br /> 55281

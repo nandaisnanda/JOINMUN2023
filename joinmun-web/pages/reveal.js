@@ -50,6 +50,13 @@ const Reveal = () => {
 };
 export default Reveal;
 
+export async function getServerSideProps({ res }) {
+	res.writeHead(302, {
+		Location: "/404",
+	});
+	res.end();
+}
+
 const revealVariants = {
 	hidden: {
 		opacity: 0,

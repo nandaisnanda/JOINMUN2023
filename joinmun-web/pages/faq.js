@@ -22,3 +22,10 @@ const FAQ = () => {
 	);
 };
 export default FAQ;
+
+export async function getServerSideProps({ res }) {
+	res.writeHead(302, {
+		Location: "/404",
+	});
+	res.end();
+}

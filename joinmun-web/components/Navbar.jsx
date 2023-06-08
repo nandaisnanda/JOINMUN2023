@@ -42,16 +42,18 @@ const Navbar = () => {
 				<div className="hidden space-x-4 lg:flex">
 					<Link
 						href="/"
-						className="cursor-pointer rounded-full bg-red p-1 transition hover:scale-110"
+						className="z-10 cursor-pointer rounded-full bg-red p-1 transition hover:scale-110"
 					>
 						<HiHome className="h-6 w-6" />
 					</Link>
-					{["articles", "chairs", "registration", "faq"].map((el, idx) => (
+					{["chairs", "registration"].map((el, idx) => (
 						<Link
 							className={`rounded-full ${
 								el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
 							} z-10 px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
-							href={el !== "home" ? `/${el}` : "/"}
+							href={
+								el !== "home" ? (el === "chairs" ? `/#chairs` : `/${el}`) : "/"
+							}
 							key={idx}
 						>
 							{el}
@@ -76,25 +78,19 @@ const Navbar = () => {
 				} z-50 grid grid-rows-[0fr] transition-all duration-500 lg:hidden`}
 			>
 				<div className="overflow-hidden">
-					{["home", "articles", "chairs", "registration", "faq"].map(
-						(el, idx) => (
-							<Link
-								className={`block ${
-									el === "registration" && "text-green"
-								} bg-yellow px-4 py-1.5 font-headline text-xl font-[900] uppercase text-red transition hover:bg-sub-yellow sm:px-6 sm:py-1 md:text-2xl`}
-								href={
-									el !== "home"
-										? el === "registration"
-											? "https://docs.google.com/forms/d/e/1FAIpQLScFF0zJUSuIiErUlxVlP10Zxlcn4tLuEFEqoDHFNScV4OQs_Q/viewform"
-											: `/${el}`
-										: "/"
-								}
-								key={idx}
-							>
-								{el}
-							</Link>
-						)
-					)}
+					{["home", "chairs", "registration"].map((el, idx) => (
+						<Link
+							className={`block ${
+								el === "registration" && "!text-green"
+							} bg-yellow px-4 py-1.5 font-headline text-xl font-[900] uppercase text-red transition hover:bg-sub-yellow sm:px-6 sm:py-1 md:text-2xl`}
+							href={
+								el !== "home" ? (el === "chairs" ? `/#chairs` : `/${el}`) : "/"
+							}
+							key={idx}
+						>
+							{el}
+						</Link>
+					))}
 				</div>
 			</div>
 		</nav>

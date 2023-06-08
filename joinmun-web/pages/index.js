@@ -1,3 +1,4 @@
+import AboutUs from "@/components/index/AboutUs";
 import Hero from "@/components/index/Hero";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,10 +7,14 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<h1 className="-mb-8 mt-28 text-center font-headline text-[9vw] leading-[9vw] sm:text-5xl md:-mb-16 md:mt-40 md:text-6xl lg:-mb-24 lg:text-7xl">
+			<AboutUs />
+			<h1
+				id="chairs"
+				className="-mb-8 scroll-mt-12 text-center font-headline text-[9vw] leading-[9vw] sm:text-5xl md:-mb-16 md:mt-40 md:text-6xl lg:-mb-24 lg:text-7xl"
+			>
 				Council and Topic <br /> Reveal
 			</h1>
-			<div className="relative">
+			<div className="relative mb-28">
 				<div className="absolute bottom-[25%] flex w-full justify-center space-x-[15vw]">
 					<button
 						type="button"
@@ -42,10 +47,10 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-			<h1 className="mt-20 text-center font-headline text-6xl">
+			{/* <h1 className="mt-20 text-center font-headline text-6xl">
 				Exhibition (coming soon)
 			</h1>
-			<h1 className="mt-20 text-center font-headline text-6xl">Gallery</h1>
+			<h1 className="mt-20 text-center font-headline text-6xl">Gallery</h1> */}
 		</>
 	);
 }

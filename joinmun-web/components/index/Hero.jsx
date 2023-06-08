@@ -9,9 +9,9 @@ import Link from "next/link";
 
 const Hero = () => {
 	return (
-		<section className="relative font-headline">
+		<section className="relative mb-28 font-headline">
 			<Image
-				className="absolute inset-0 m-auto h-auto w-4/5 md:w-3/5"
+				className="absolute inset-0 m-auto h-auto w-4/5 max-w-3xl md:w-3/5"
 				src={kipas}
 				alt="kipas"
 			/>
@@ -34,7 +34,7 @@ const Hero = () => {
 				{headlineList.map((headline, idx) => (
 					<SwiperSlide
 						key={idx}
-						className="!flex min-h-[80vh] flex-col justify-center px-12 sm:px-20 md:px-28"
+						className="mx-auto !flex min-h-[80vh] max-w-[90rem] flex-col justify-center px-12 sm:px-20 md:px-28"
 					>
 						<p className="mb-4 text-xl uppercase sm:mb-8 sm:text-2xl md:text-3xl lg:text-4xl">
 							{headline.tag}
@@ -45,9 +45,9 @@ const Hero = () => {
 						<p className="mb-6 text-lg sm:mb-12 sm:text-xl md:text-2xl lg:text-3xl">
 							{headline.description}
 						</p>
-						<Link href="/reveal">
+						<Link className="w-fit" href="/">
 							<button className="w-fit rounded-full bg-yellow px-4 py-1 font-body text-red md:text-lg">
-								more information
+								coming soon
 							</button>
 						</Link>
 					</SwiperSlide>
@@ -64,16 +64,6 @@ const Hero = () => {
 export default Hero;
 
 const headlineList = [
-	{
-		tag: "Grand Theme",
-		headline: "Ashes of the Old Order",
-		description: "Emergence of the All-Informed Architects of Modern Politics",
-	},
-	{
-		tag: "Grand Theme",
-		headline: "Ashes of the Old Order",
-		description: "Emergence of the All-Informed Architects of Modern Politics",
-	},
 	{
 		tag: "Grand Theme",
 		headline: "Ashes of the Old Order",
