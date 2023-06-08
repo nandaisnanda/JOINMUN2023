@@ -2,11 +2,11 @@
   "name": "joinmun-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joinmun2023.com",
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start -p 8080",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
