@@ -45,7 +45,7 @@ export default function Home() {
 			<h1 className="mt-20 text-center font-headline text-6xl">
 				Exhibition (coming soon)
 			</h1>
-			<h1 className="mt-20 text-center font-headline text-6xl">Gallery</h1>
+			<h1 className="mt-20 text-center font-headline text-6xl">Gallery (coming soon)</h1>
 		</>
 	);
 }
