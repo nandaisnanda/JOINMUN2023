@@ -65,7 +65,7 @@ const CardFlipPage = () => {
 				<h1 className="m-12 mt-24 text-center font-headline text-4xl">
 					Single Delegate Advanced Council
 				</h1>
-				<div className="flex flex-wrap ">
+				<div className="flex flex-wrap justify-center ">
 					{cardDataSDAC.map((card) => (
 						<div key={card.id} className="mb-8">
 							<FlipCard
