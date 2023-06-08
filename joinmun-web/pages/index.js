@@ -20,7 +20,7 @@ export default function Home() {
 						type="button"
 						className="rounded-2xl bg-yellow px-4 py-1 font-headline text-[3vw] text-red transition-all hover:scale-105 hover:bg-sub-yellow sm:text-sm md:px-10 md:py-2 md:text-base"
 					>
-						<Link href="/chairs#sdac">
+						<Link href="/chairs/sdac">
 							<h1 className="font-bold">
 								Single Delegate <br /> Advanced Council
 							</h1>
@@ -30,7 +30,7 @@ export default function Home() {
 						type="button"
 						className="rounded-2xl bg-yellow px-4 py-1 font-headline text-[3vw] text-red transition-all hover:scale-105 hover:bg-sub-yellow sm:text-sm md:px-10 md:py-2 md:text-base"
 					>
-						<Link href="/chairs#ddac">
+						<Link href="/chairs/ddac">
 							<h1 className="font-bold">
 								Double Delegates <br /> Advanced Council
 							</h1>
