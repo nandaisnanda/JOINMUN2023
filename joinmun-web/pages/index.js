@@ -22,7 +22,7 @@ export default function Home() {
 					>
 						<Link href="/chairs/sdac">
 							<h1 className="font-bold">
-								Single Delegate <br /> Advanced Council
+								Single Delegate <br /> Council
 							</h1>
 						</Link>
 					</button>
@@ -32,7 +32,7 @@ export default function Home() {
 					>
 						<Link href="/chairs/ddac">
 							<h1 className="font-bold">
-								Double Delegates <br /> Advanced Council
+								Double Delegates <br /> Council
 							</h1>
 						</Link>
 					</button>
