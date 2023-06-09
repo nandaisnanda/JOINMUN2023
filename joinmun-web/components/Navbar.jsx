@@ -46,13 +46,13 @@ const Navbar = () => {
 					>
 						<HiHome className="h-6 w-6" />
 					</Link>
-					{["chairs", "registration"].map((el, idx) => (
+					{["councils", "registration"].map((el, idx) => (
 						<Link
 							className={`rounded-full ${
 								el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
 							} z-10 px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
 							href={
-								el !== "home" ? (el === "chairs" ? `/#chairs` : `/${el}`) : "/"
+								el !== "home" ? (el === "councils" ? `/#chairs` : `/${el}`) : "/"
 							}
 							key={idx}
 						>
@@ -78,13 +78,13 @@ const Navbar = () => {
 				} z-50 grid grid-rows-[0fr] transition-all duration-500 lg:hidden`}
 			>
 				<div className="overflow-hidden">
-					{["home", "chairs", "registration"].map((el, idx) => (
+					{["home", "councils", "registration"].map((el, idx) => (
 						<Link
 							className={`block ${
 								el === "registration" && "!text-green"
 							} bg-yellow px-4 py-1.5 font-headline text-xl font-[900] uppercase text-red transition hover:bg-sub-yellow sm:px-6 sm:py-1 md:text-2xl`}
 							href={
-								el !== "home" ? (el === "chairs" ? `/#chairs` : `/${el}`) : "/"
+								el !== "home" ? (el === "councils" ? `/#chairs` : `/${el}`) : "/"
 							}
 							key={idx}
 						>
