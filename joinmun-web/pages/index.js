@@ -9,7 +9,7 @@ export default function Home() {
 			<Hero />
 			<AboutUs />
 			<h1
-				id="chairs"
+				id="councils"
 				className="-mb-8 scroll-mt-12 text-center font-headline text-[9vw] leading-[9vw] sm:text-5xl md:-mb-16 md:mt-40 md:text-6xl lg:-mb-24 lg:text-7xl"
 			>
 				Council and Topic <br /> Reveal
@@ -20,9 +20,9 @@ export default function Home() {
 						type="button"
 						className="rounded-2xl bg-yellow px-4 py-1 font-headline text-[3vw] text-red transition-all hover:scale-105 hover:bg-sub-yellow sm:text-sm md:px-10 md:py-2 md:text-base"
 					>
-						<Link href="/chairs/sdac">
+						<Link href="/councils/sdac">
 							<h1 className="font-bold">
-								Single Delegate <br /> Advanced Council
+								Single Delegate <br /> Council
 							</h1>
 						</Link>
 					</button>
@@ -30,9 +30,9 @@ export default function Home() {
 						type="button"
 						className="rounded-2xl bg-yellow px-4 py-1 font-headline text-[3vw] text-red transition-all hover:scale-105 hover:bg-sub-yellow sm:text-sm md:px-10 md:py-2 md:text-base"
 					>
-						<Link href="/chairs/ddac">
+						<Link href="/councils/ddac">
 							<h1 className="font-bold">
-								Double Delegates <br /> Advanced Council
+								Double Delegates <br /> Council
 							</h1>
 						</Link>
 					</button>

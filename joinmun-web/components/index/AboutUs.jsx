@@ -17,13 +17,13 @@ const AboutUs = () => {
 						</h2>
 						<p className="text-sm md:text-base lg:text-lg">
 							Founded in 2012 and located in the heritage city of Yogyakarta,
-							Indonesia, JOINMUN is intended to educate and promote global peace
-							and give the experience to enjoy the city of Yogyakarta itself,
-							with its mesmerizing and beautiful culture. As the first
-							international Model United Nations conference in Yogyakarta,
-							JOINMUN is aiming to share the tradition of hospitality of
-							Yogyakarta and also its culture across the globe, as well as
-							preparing its delegates to be world leaders of tomorrow.
+							Indonesia, JOINMUN intends to educate delegates and promote global
+							peace while giving the opportinity for delegates to enjoy the city
+							of Yogyakarta itself, with its mesmerizing and beautiful culture.
+							As the first international Model United Nations conference in
+							Yogyakarta, JOINMUN aims to immerse delegates in the traditional
+							hospitality of Yogyakarta while also preparing its delegates to be
+							world leaders of tomorrow.
 						</p>
 					</div>
 				</div>

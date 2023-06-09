@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
 			className={`${josefinSans.variable} ${safiraMarch.variable} ${
 				philosopher.variable
 			} ${
-				router.pathname.includes("/chairs") ? "bg-[#dfc897]" : "bg-red"
+				router.pathname.includes("/councils") ? "bg-[#dfc897]" : "bg-red"
 			} font-body text-yellow`}
 		>
 			<Head>
