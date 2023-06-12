@@ -3,7 +3,7 @@ import { BsFillDiamondFill } from "react-icons/bs";
 
 const FAQ = () => {
 	return (
-		<div style={{ backgroundImage: "url('./faq/cloud-background.png')" }}>
+		<div style={{ backgroundImage: "url('./cloud-background.png')" }}>
 			<section className="container mx-auto px-4 pb-28 pt-32 sm:px-12 lg:px-16 lg:pt-20">
 				<h2 className="relative mb-10 rounded-full bg-[#7c1717] px-12 py-3 text-center font-headline text-4xl shadow-[inset_0_3px_10px_rgba(0,0,0,0.7)] sm:text-5xl md:text-6xl lg:mb-14 lg:py-4 lg:text-7xl">
 					<BsFillDiamondFill className="absolute bottom-0 left-6 top-0 my-auto h-auto w-4 sm:w-6 lg:left-8" />

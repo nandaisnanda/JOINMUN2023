@@ -45,7 +45,7 @@ const CardFlipPage = () => {
 	];
 
 	return (
-		<div style={{ backgroundImage: "url('/faq/cloud-background.png')" }}>
+		<div style={{ backgroundImage: "url('/cloud-background.png')" }}>
 			<div className="sdac flex flex-col items-center" id="sdac">
 				<h1 className="m-12 mt-16 text-center font-headline text-4xl font-bold text-red lg:text-5xl">
 					Single Delegate Advanced Council

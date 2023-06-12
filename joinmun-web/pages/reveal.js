@@ -4,7 +4,7 @@ const Reveal = () => {
 	return (
 		<section
 			className="min-h-screen"
-			style={{ backgroundImage: "url('./reveal/cloud-background.png')" }}
+			style={{ backgroundImage: "url('./cloud-background.png')" }}
 		>
 			<motion.div
 				variants={revealVariants}
