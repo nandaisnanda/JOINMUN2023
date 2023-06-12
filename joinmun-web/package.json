@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://joinmun2023.com",
   "scripts": {
+    "local": "next dev",
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"

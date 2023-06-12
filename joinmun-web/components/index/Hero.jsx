@@ -14,6 +14,7 @@ const Hero = () => {
 				className="absolute inset-0 m-auto h-auto w-4/5 max-w-3xl md:w-3/5"
 				src={kipas}
 				alt="kipas"
+				priority
 			/>
 			<Swiper
 				loop
