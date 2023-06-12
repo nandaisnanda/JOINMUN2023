@@ -64,7 +64,7 @@ const FlipCard = ({ title, backText, frontLogo, backLogo }) => {
 			position: "absolute",
 			width: "100%",
 			height: "100%",
-			backgroundImage: 'url("/chairs/frontImage.svg")',
+			backgroundImage: 'url("/chairs/front-image.png")',
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
 			backgroundPosition: "center",

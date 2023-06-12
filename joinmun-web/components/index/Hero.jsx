@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-import kipas from "@/public/kipas.svg";
+import kipas from "@/public/kipas.png";
 import Image from "next/image";
 import { BsChevronLeft } from "react-icons/bs";
 

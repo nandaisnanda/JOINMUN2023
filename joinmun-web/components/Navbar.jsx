@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logoJoinmun from "@/public/index/logo-joinmun.svg";
-import jogjaSilhouette from "@/public/jogja-silhouette.svg";
+import jogjaSilhouette from "@/public/jogja-navbar.png";
 import Link from "next/link";
 import { HiHome } from "react-icons/hi";
 import { FiMenu } from "react-icons/fi";
