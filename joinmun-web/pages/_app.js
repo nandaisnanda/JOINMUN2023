@@ -11,10 +11,6 @@ const josefinSans = localFont({
 	src: "./../public/fonts/josefin-sans/JosefinSans-VariableFont_wght.ttf",
 	variable: "--font-josefin-sans",
 });
-const safiraMarch = localFont({
-	src: "./../public/fonts/safira-march/Safira March.otf",
-	variable: "--font-safira-march",
-});
 const philosopher = localFont({
 	src: "./../public/fonts/philosopher/Philosopher-Regular.ttf",
 	variable: "--font-philosopher",
@@ -27,7 +23,7 @@ export default function App({ Component, pageProps }) {
 
 	return (
 		<main
-			className={`${josefinSans.variable} ${safiraMarch.variable} ${
+			className={`${josefinSans.variable} ${
 				philosopher.variable
 			} ${
 				router.pathname.includes("/councils") ? "bg-[#dfc897]" : "bg-red"
