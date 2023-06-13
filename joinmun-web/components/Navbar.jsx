@@ -26,7 +26,7 @@ const Navbar = () => {
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
-	}, [window.scrollY]);
+	}, [prevScrollPos]);
 
 	return (
 		<nav

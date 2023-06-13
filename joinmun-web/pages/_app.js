@@ -6,6 +6,7 @@ import Head from "next/head";
 
 import "@/styles/scrollbar-card.css";
 import { useRouter } from "next/router";
+import Navbar from "@/components/Navbar";
 
 const josefinSans = localFont({
 	src: "./../public/fonts/josefin-sans/JosefinSans-VariableFont_wght.ttf",
@@ -15,8 +16,6 @@ const philosopher = localFont({
 	src: "./../public/fonts/philosopher/Philosopher-Regular.ttf",
 	variable: "--font-philosopher",
 });
-
-const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: false });
 
 export default function App({ Component, pageProps }) {
 	const router = useRouter();
