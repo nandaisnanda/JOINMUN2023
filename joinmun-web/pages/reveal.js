@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 const Reveal = () => {
 	return (
@@ -6,6 +7,9 @@ const Reveal = () => {
 			className="min-h-screen"
 			style={{ backgroundImage: "url('./cloud-background.png')" }}
 		>
+			<Head>
+				<title>Reveal | JOINMUN 2023</title>
+			</Head>
 			<motion.div
 				variants={revealVariants}
 				initial="hidden"

@@ -1,4 +1,5 @@
 import FlipCard from "@/components/chairs/flipCard";
+import Head from "next/head";
 
 const CardFlipPage = () => {
 	const cardDataDDAC = [
@@ -25,9 +26,12 @@ const CardFlipPage = () => {
 			className="min-h-screen"
 			style={{ backgroundImage: "url('/cloud-background.png')" }}
 		>
+			<Head>
+				<title>DDC | JOINMUN 2023</title>
+			</Head>
 			<div className="ddac flex flex-col items-center" id="ddac">
 				<h1 className="m-12 mt-16 text-center font-headline text-4xl font-bold text-red lg:text-5xl">
-					Double Delegate Advanced Council
+					Double Delegates Council
 				</h1>
 				<div className="flex flex-wrap justify-center">
 					{cardDataDDAC.map((card) => (

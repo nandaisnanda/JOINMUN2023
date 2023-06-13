@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 const Registration = () => {
 	return (
 		<div>
+			<Head>
+				<title>Registration | JOINMUN 2023</title>
+			</Head>
 			<iframe
 				title="Google Form Embed"
 				id="google-form-iframe"

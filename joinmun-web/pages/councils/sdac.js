@@ -1,4 +1,5 @@
 import FlipCard from "@/components/chairs/flipCard";
+import Head from "next/head";
 
 const CardFlipPage = () => {
 	const cardDataSDAC = [
@@ -46,9 +47,12 @@ const CardFlipPage = () => {
 
 	return (
 		<div style={{ backgroundImage: "url('/cloud-background.png')" }}>
+			<Head>
+				<title>SDC | JOINMUN 2023</title>
+			</Head>
 			<div className="sdac flex flex-col items-center" id="sdac">
 				<h1 className="m-12 mt-16 text-center font-headline text-4xl font-bold text-red lg:text-5xl">
-					Single Delegate Advanced Council
+					Single Delegate Council
 				</h1>
 				<div className="flex flex-wrap justify-center pb-20 ">
 					{cardDataSDAC.map((card) => (
