@@ -1,5 +1,6 @@
 import AboutUs from "@/components/index/AboutUs";
 import Hero from "@/components/index/Hero";
+import Remarks from "@/components/index/Remarks";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,6 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
+			<Remarks />
 			<AboutUs />
 			<h1
 				id="councils"

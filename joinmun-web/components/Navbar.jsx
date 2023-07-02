@@ -78,8 +78,8 @@ const Navbar = () => {
 			</div>
 			<div
 				className={`relative ${
-					show && "!grid-rows-[1fr]"
-				} z-50 grid grid-rows-[0fr] transition-all duration-500 lg:hidden`}
+					show ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+				} z-50 grid transition-all duration-500 lg:hidden`}
 			>
 				<div className="overflow-hidden">
 					{["home", "councils", "registration"].map((el, idx) => (

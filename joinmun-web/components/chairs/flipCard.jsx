@@ -18,8 +18,6 @@ const FlipCard = ({ title, backText, frontLogo, backLogo }) => {
 
 	const styles = {
 		cardStyle: {
-			width: "350px",
-			height: "280px",
 			transform: "scale(1)",
 			transition: "transform 0.3s ease",
 		},
@@ -151,7 +149,7 @@ const FlipCard = ({ title, backText, frontLogo, backLogo }) => {
 
 	return (
 		<div
-			className="cardStyle"
+			className="cardStyle h-[256px] w-[320px] sm:h-[280px] sm:w-[350px]"
 			style={combinedStyles}
 			onClick={handleClick}
 			onMouseEnter={handleMouseEnter}

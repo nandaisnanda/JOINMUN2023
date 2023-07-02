@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import "@/styles/globals.css";
-import dynamic from "next/dynamic";
 import localFont from "next/font/local";
 import Head from "next/head";
 
