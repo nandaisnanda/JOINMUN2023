@@ -49,34 +49,6 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-			{/* <div class="flex justify-center space-x-4"> 
-			<div class="w-64 h-50 right-2 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">Registration Fees</p>
-			</div>
-			<div class="w-64 h-50 right-2 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">Rp1.500.000/$105 (Non-accomodation package) Rp2.200.000/$160 (Accommodation package)</p>
-			</div>
-			<div class="w-64 h-50 right-2 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">Rp1.600.000/$ (Non-accomodation package)Rp2.500.000/$ (Accommodation package)</p>
-			</div>
-			<div class="w-64 h-50 right-2 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">TBA</p>
-			</div>
-			</div>
-			<div class="flex justify-center space-x-4 space-y-16"> 
-			<div class="w-64 h-10 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">Timeline</p>
-			</div>
-			<div class="w-64 h-10  bg-yellow p-4">
-  				<p class="text-red text-center font-bold">1st May - 1st June</p>
-			</div>
-			<div class="w-64 h-10 bg-yellow p-4">
-  				<p class="text-red text-center font-bold">10th June - 15th July</p>
-			</div>
-			<div class="w-64 h-10  bg-yellow p-4">
-  				<p class="text-red text-center font-bold">16th July - 30th August</p>
-			</div>
-			</div> */}
 			{/* <h1 className="mt-20 text-center font-headline text-6xl">
 				Exhibition (coming soon)
 			</h1>
