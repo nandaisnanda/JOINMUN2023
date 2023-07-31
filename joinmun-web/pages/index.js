@@ -49,7 +49,7 @@ export default function Home() {
 					/>
 				</div>
 			</div>
-			<div class="flex justify-center space-x-4"> 
+			{/* <div class="flex justify-center space-x-4"> 
 			<div class="w-64 h-50 right-2 bg-yellow p-4">
   				<p class="text-red text-center font-bold">Registration Fees</p>
 			</div>
@@ -76,7 +76,7 @@ export default function Home() {
 			<div class="w-64 h-10  bg-yellow p-4">
   				<p class="text-red text-center font-bold">16th July - 30th August</p>
 			</div>
-			</div>
+			</div> */}
 			{/* <h1 className="mt-20 text-center font-headline text-6xl">
 				Exhibition (coming soon)
 			</h1>
