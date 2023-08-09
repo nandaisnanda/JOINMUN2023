@@ -46,7 +46,7 @@ const Navbar = () => {
           >
             <HiHome className="h-6 w-6" />
           </Link>
-          {["councils", "pricelist", "registration"].map((el, idx) => (
+          {["councils", "pricelist", "faq", "registration"].map((el, idx) => (
             <Link
               className={`rounded-full ${
                 el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
@@ -76,7 +76,7 @@ const Navbar = () => {
         } z-50 grid transition-all duration-500 lg:hidden`}
       >
         <div className="overflow-hidden">
-          {["councils", "pricelist", "registration"].map((el, idx) => (
+          {["councils", "pricelist", "faq", "registration"].map((el, idx) => (
             <Link
               className={`block ${
                 el === "registration" && "!text-green"

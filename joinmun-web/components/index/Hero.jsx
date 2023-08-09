@@ -46,9 +46,9 @@ const Hero = () => {
 						<p className="mb-6 text-lg sm:mb-12 sm:text-xl md:text-2xl lg:text-3xl">
 							{headline.description}
 						</p>
-						<Link className="w-fit" href="/">
+						<Link className="w-fit" href="/reveal">
 							<button className="w-fit rounded-full bg-yellow px-4 py-1 font-body text-red md:text-lg">
-								coming soon
+								date reveal
 							</button>
 						</Link>
 					</SwiperSlide>
