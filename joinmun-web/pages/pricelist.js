@@ -44,15 +44,21 @@ const Pricelist = () => {
         {/* Tablet and above */}
         <div className="hidden lg:block">
           <div className="grid grid-cols-4 gap-4">
-            <p className="col-start-2 rounded-sm bg-yellow py-4 text-center font-body text-xl font-bold text-red shadow-xl">
-              Early-Bird Wave Registration
-            </p>
-            <p className="rounded-sm bg-yellow py-4 text-center font-body text-xl font-bold text-red shadow-xl">
-              Regular Wave Registration
-            </p>
-            <p className="rounded-sm bg-yellow py-4 text-center font-body text-xl font-bold text-red shadow-xl">
-              Late Wave Registration
-            </p>
+            <div className="col-start-2 grid rounded-sm bg-yellow shadow-xl">
+              <p className="self-center p-4 text-center font-body text-xl font-bold text-red">
+                Early-Bird Wave Registration
+              </p>
+            </div>
+            <div className="grid rounded-sm bg-yellow shadow-xl">
+              <p className="self-center p-4 text-center font-body text-xl font-bold text-red">
+                Regular Wave Registration
+              </p>
+            </div>
+            <div className="grid rounded-sm bg-yellow shadow-xl">
+              <p className="self-center p-4 text-center font-body text-xl font-bold text-red">
+                Late Wave Registration
+              </p>
+            </div>
 
             <div className="grid rounded-sm bg-yellow shadow-xl">
               <p className="self-center px-12 py-1 text-center font-body text-xl font-bold text-red">
@@ -73,7 +79,8 @@ const Pricelist = () => {
             </div>
             <div className="grid rounded-sm bg-yellow shadow-xl">
               <p className="my-auto self-center px-2 py-4 text-center text-lg text-red">
-                TBA
+                Rp1.900.000/$150 (Non-accomodation package) <br />{" "}
+                Rp2.800.000/$230 (Accommodation package)
               </p>
             </div>
 
@@ -92,7 +99,7 @@ const Pricelist = () => {
             </div>
             <div className="grid rounded-sm bg-yellow shadow-xl">
               <p className="self-center p-2 text-center text-lg text-red">
-                16th July - 30th August
+                30th July - 31th August
               </p>
             </div>
           </div>
