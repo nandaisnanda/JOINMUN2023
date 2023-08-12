@@ -34,10 +34,11 @@ const Pricelist = () => {
             Late Wave Registration
           </p>
           <p className="rounded-sm bg-yellow px-2 py-4 text-center text-lg text-red shadow-xl">
-            TBA
+            Rp1.900.000/$150 (Non-accomodation package) <br /> Rp2.800.000/$230
+            (Accommodation package)
           </p>
           <p className="mt-3 rounded-sm bg-yellow p-2 text-center text-lg text-red shadow-xl">
-            16th July - 30th August
+            30th July - 31th August
           </p>
         </div>
 
