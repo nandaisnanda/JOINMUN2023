@@ -86,43 +86,39 @@ const revealData = [
     date: "28 Sept",
     timeline: [
       {
-        time: "15.15 – 15.30",
+        time: "16.00 – 16.20",
         agenda: "Open gate",
       },
       {
-        time: "15.30 – 16.00",
+        time: "16.20 – 16.50",
         agenda: "Opening",
       },
       {
-        time: "16.00 – 16.10",
-        agenda: "Opening performance",
+        time: "16.50 – 17.00",
+        agenda: "Performance",
       },
       {
-        time: "16.10 – 16.40",
+        time: "17.00 – 17.30",
         agenda: "Speaker session 1",
-      },
-      {
-        time: "16.40 – 17.10",
-        agenda: "Speaker session 2",
-      },
-      {
-        time: "17.10 – 17.30",
-        agenda: "Q&A session",
       },
       {
         time: "17.30 – 17.50",
         agenda: "Prayer break",
       },
       {
-        time: "17.50 – 18.13",
-        agenda: "MUN 101",
+        time: "17.50 – 18.20",
+        agenda: "Speakers session 2",
       },
       {
-        time: "18.13 - 18.28",
-        agenda: "Main performance",
+        time: "18.20 – 18.40",
+        agenda: "Q&A session",
       },
       {
-        time: "18.28 – 19.45",
+        time: "18.40 – 18.55",
+        agenda: "Performance",
+      },
+      {
+        time: "18.55 – 20.00",
         agenda: "Closing & dinner",
       },
     ],
@@ -131,39 +127,39 @@ const revealData = [
     date: "29 Sept",
     timeline: [
       {
-        time: "10.00 - 10.45",
+        time: "10.30 – 11.00",
         agenda: "Delegate registration",
       },
       {
-        time: "10.45 - 11.00",
-        agenda: "Final preparation",
-      },
-      {
-        time: "11.00 - 11.15",
-        agenda: "Comses 0",
-      },
-      {
-        time: "11.15 - 12.45",
-        agenda: "Comses 1",
-      },
-      {
-        time: "12.45 - 14.15",
+        time: "11.00 – 12.30",
         agenda: "Lunch break",
       },
       {
-        time: "14.15 - 16.15",
-        agenda: "Comses II",
+        time: "12.30 – 12.45",
+        agenda: "Comses 0",
       },
       {
-        time: "16.15 - 16.35",
+        time: "12.45 – 14.30",
+        agenda: "Comses 1",
+      },
+      {
+        time: "14.30 – 14.40",
         agenda: "Coffee break",
       },
       {
-        time: "16.35 - 18.35",
+        time: "14.40 – 16.10",
+        agenda: "Comses II",
+      },
+      {
+        time: "16.10 – 16.20",
+        agenda: "Coffee break",
+      },
+      {
+        time: "16.20 – 18.20",
         agenda: "Comses III",
       },
       {
-        time: "18.35 - 18.50",
+        time: "18.20 – 18.35",
         agenda: "Announcement + Feedback",
       },
       {
@@ -171,28 +167,24 @@ const revealData = [
         agenda: "Dinner",
       },
       {
-        time: "20.45 - 00.00",
+        time: "20.00 - 00.00",
         agenda: "Social night",
       },
       {
-        time: "20.45 – 21.15",
+        time: "20.00 – 21.00",
         agenda: "Open gate",
       },
       {
-        time: "21.15 - 21.25",
-        agenda: "MC session",
+        time: "21.00 – 22.00",
+        agenda: "Live Music",
       },
       {
-        time: "21.25 - 22.35",
-        agenda: "Live performance",
+        time: "22.00 – 23.00",
+        agenda: "Karaoke Session",
       },
       {
-        time: "22.35 - 23.35",
-        agenda: "DJ set",
-      },
-      {
-        time: "23.35 - 00.00",
-        agenda: "Closing",
+        time: "23.00 – 00.00",
+        agenda: "DJ Session",
       },
     ],
   },
@@ -200,71 +192,67 @@ const revealData = [
     date: "30 Sept",
     timeline: [
       {
-        time: "07.45 - 08.00",
+        time: "07.30 – 08.00",
         agenda: "Delegations registration",
       },
       {
-        time: "08.00 - 09.30",
+        time: "08.00 – 09.45",
         agenda: "Comses IV",
       },
       {
-        time: "09.30 - 09.45",
+        time: "09.45 – 10.00",
         agenda: "Coffee break",
       },
       {
-        time: "09.45 - 11.45",
+        time: "10.00 – 12.00",
         agenda: "Comses V",
       },
       {
-        time: "11.45 - 12.00",
+        time: "12.00 – 13.30",
         agenda: "Lunch break",
       },
       {
-        time: "12.00 - 13.30",
+        time: "13.30 – 15.00",
         agenda: "Comses VI",
       },
       {
-        time: "13.30 - 15.00",
-        agenda: "Lunch Break",
+        time: "15.00 – 15.10",
+        agenda: "Coffee break",
       },
       {
-        time: "15.00 - 16.30",
+        time: "15.10 – 16.40",
         agenda: "Comses VII",
       },
       {
-        time: "16.30 - 16.45",
+        time: "16.40 – 16.55",
         agenda: "Announcement + Feedback",
       },
       {
-        time: "18.30 - 22.03",
+        time: "18.30 - 22.00",
         agenda: "Closing ceremony",
       },
       {
-        time: "18.30 - 19.00",
+        time: "18.30 – 19.00",
         agenda: "Open gate",
       },
       {
-        time: "19.00 - 20.00",
+        time: "19.00 – 20.00",
         agenda: "Dinner",
       },
       {
-        time: "20.00 - 20.15",
+        time: "20.00 – 20.15",
         agenda: "Opening",
       },
       {
-        time: "20.15 - 20.27",
+        time: "20.15 – 20.30",
         agenda: "Performance",
       },
       {
-        time: "20.27 - 20.40",
-        agenda: "Traditional dance",
-      },
-      {
-        time: "20.40 - 21.42",
+        time: "20.30 – 21.40",
         agenda: "Awarding",
       },
       {
-        time: "21.42 - 22.03",
+        time: "21.40 – 22.00",
         agenda: "Closing",
       },
     ],
@@ -273,12 +261,40 @@ const revealData = [
     date: "1 Oct",
     timeline: [
       {
-        time: "08.00 - 12.00",
+        time: "07.30 - 12.00",
         agenda: "Cultural day",
       },
       {
         agenda: "",
         time: "Poolside Garden (Garden - Pendopo III)",
+      },
+      {
+        time: "07.30",
+        agenda: "Open gate",
+      },
+      {
+        time: "08.00 – 09.00",
+        agenda: "Workshop Session 1",
+      },
+      {
+        time: "09.00 – 09.15",
+        agenda: "Live Music and Games",
+      },
+      {
+        time: "09.15 – 10.15",
+        agenda: "Workshop Session 2",
+      },
+      {
+        time: "10.15 – 10.30",
+        agenda: "Live Music and Games",
+      },
+      {
+        time: "10.30 – 11.30",
+        agenda: "Workshop Session 3",
+      },
+      {
+        time: "11.45",
+        agenda: "Clear Area",
       },
     ],
   },
