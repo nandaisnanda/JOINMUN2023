@@ -46,33 +46,30 @@ const Navbar = () => {
           >
             <HiHome className="h-6 w-6" />
           </Link>
-          {[
-            "ROP",
-            "handbook",
-            "councils",
-            "pricelist",
-            "faq",
-            "registration",
-          ].map((el, idx) => (
-            <Link
-              className={`rounded-full ${
-                el === "registration" ? "bg-green text-white" : "bg-sub-yellow"
-              } z-10 px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
-              href={
-                el === "councils"
-                  ? `/#councils`
-                  : el === "ROP"
-                  ? "https://drive.google.com/file/d/1D57q87onsEv-KJxtZdiZ5ufWbVjpMZOB/view?usp=drivesdk"
-                  : el === "handbook"
-                  ? "https://drive.google.com/file/d/1UOvcdOPAAPLsccIV3OBj8XP6zufL_Wsj/view?usp=sharing"
-                  : `/${el}`
-              }
-              target={["ROP", "handbook"].includes(el) ? "_blank" : ""}
-              key={idx}
-            >
-              {el}
-            </Link>
-          ))}
+          {["ROP", "handbook", "articles", "councils", "pricelist", "faq"].map(
+            (el, idx) => (
+              <Link
+                className={`rounded-full ${
+                  el === "registration"
+                    ? "bg-green text-white"
+                    : "bg-sub-yellow"
+                } z-10 px-3 py-1 font-headline font-[500] uppercase text-black transition hover:scale-110`}
+                href={
+                  el === "councils"
+                    ? `/#councils`
+                    : el === "ROP"
+                    ? "https://drive.google.com/file/d/1D57q87onsEv-KJxtZdiZ5ufWbVjpMZOB/view?usp=drivesdk"
+                    : el === "handbook"
+                    ? "https://drive.google.com/file/d/1UOvcdOPAAPLsccIV3OBj8XP6zufL_Wsj/view?usp=sharing"
+                    : `/${el}`
+                }
+                target={["ROP", "handbook"].includes(el) ? "_blank" : ""}
+                key={idx}
+              >
+                {el}
+              </Link>
+            )
+          )}
         </div>
 
         {/* Mobile and Tablet */}
@@ -92,33 +89,28 @@ const Navbar = () => {
         } z-50 grid transition-all duration-500 lg:hidden`}
       >
         <div className="overflow-hidden">
-          {[
-            "ROP",
-            "handbook",
-            "councils",
-            "pricelist",
-            "faq",
-            "registration",
-          ].map((el, idx) => (
-            <Link
-              className={`block ${
-                el === "registration" && "!text-green"
-              } bg-yellow px-4 py-1.5 font-headline text-xl font-[900] uppercase text-red transition hover:bg-sub-yellow sm:px-6 sm:py-1 md:text-2xl`}
-              href={
-                el === "councils"
-                  ? `/#councils`
-                  : el === "ROP"
-                  ? "https://drive.google.com/file/d/1D57q87onsEv-KJxtZdiZ5ufWbVjpMZOB/view?usp=drivesdk"
-                  : el === "handbook"
-                  ? "https://drive.google.com/file/d/1UOvcdOPAAPLsccIV3OBj8XP6zufL_Wsj/view?usp=sharing"
-                  : `/${el}`
-              }
-              target={["ROP", "handbook"].includes(el) ? "_blank" : ""}
-              key={idx}
-            >
-              {el}
-            </Link>
-          ))}
+          {["ROP", "handbook", "articles", "councils", "pricelist", "faq"].map(
+            (el, idx) => (
+              <Link
+                className={`block ${
+                  el === "registration" && "!text-green"
+                } bg-yellow px-4 py-1.5 font-headline text-xl font-[900] uppercase text-red transition hover:bg-sub-yellow sm:px-6 sm:py-1 md:text-2xl`}
+                href={
+                  el === "councils"
+                    ? `/#councils`
+                    : el === "ROP"
+                    ? "https://drive.google.com/file/d/1D57q87onsEv-KJxtZdiZ5ufWbVjpMZOB/view?usp=drivesdk"
+                    : el === "handbook"
+                    ? "https://drive.google.com/file/d/1UOvcdOPAAPLsccIV3OBj8XP6zufL_Wsj/view?usp=sharing"
+                    : `/${el}`
+                }
+                target={["ROP", "handbook"].includes(el) ? "_blank" : ""}
+                key={idx}
+              >
+                {el}
+              </Link>
+            )
+          )}
         </div>
       </div>
     </nav>
