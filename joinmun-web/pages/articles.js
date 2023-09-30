@@ -48,7 +48,7 @@ const Articles = () => {
         <div className="grid gap-6 lg:grid-cols-2">
           {articlesList
             .filter((article) =>
-              article.title.toLowerCase().includes(searchTerm)
+              article.title.toLowerCase().includes(searchTerm.toLowerCase())
             )
             .map((article) => (
               <Link
